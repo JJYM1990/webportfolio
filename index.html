@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<!-- Meta tag for responsiveness -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Icon for the title bar -->
+	<link rel="website icon" type="png" href="./images/nodejs.png">
+	<link rel="stylesheet" type="text/css" href="./index.css">
+
+	<!-- Link for the bootstrap -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+	
+	<title>My Porfolio</title>
+</head>
+<body>
+	<!-- Navbar section -->
+	<nav class="navbar navbar-expand-lg navbar-dark DarBlueBG d-md-none">
+
+	  
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#about">About me<span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#blog">Projects</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#tools">Tools</a>
+	      </li>
+	        <li class="nav-item">
+	        <a class="nav-link" href="#contact">Contact Me</a>
+	      </li>
+
+	    </ul>
+	  </div>
+	</nav>
+	<!-- End of navbar -->
+
+	
+	<div class = "container-fluid text-center bg-primary bordercss">
+		<div class ="row">
+			<!-- Side bar -->
+			<div class = "col-md-4 col-lg-2 d-none d-md-block p-0">
+				<!-- image on sidebar -->
+		<div class="rounded-circle border-3 border-danger">
+			<div><img src="./images/myimage.jpg" class = " col-6 mt-5 img-thumbnail"></div>
+			<div><p class="text-light">Jan Jonell Mendoza</p></div>
+		</div>			
+		<!-- end image on sidebar -->
+		<!-- start of social media -->
+		<div class="container-fluid">
+			<div class="d-flex bg-light pt-1 pb-0 bordercss">
+				<div class="mb-3">
+					<a href="https://www.facebook.com/pyro125"><img src="./images/facebook.png" class="img-fluid w-25"></a>
+					<a href="https://www.instagram.com/llenojazodnem/"><img src="./images/instagram.png" class="img-fluid w-25"></a>
+					<a href="https://twitter.com/JJYM20"><img src="./images/twitter.png" class="img-fluid w-25"></a>
+				</div>
+			</div>
+		</div>
+		<!-- end of social media -->
+
+
+				<div class="accordion bordercss m-2" id="accordionExample">
+
+	  <div class="card">
+				    <div class="card-header" id="headingTwo">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link bg-dark btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+				          <a href="#about" class="text-light textsm">About Me</a>
+				        </button>
+				      </h2>
+				    </div>
+			
+				  </div>
+				  <div class="card">
+				    <div class="card-header" id="headingOne">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link bg-dark btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				          Projects
+				        </button>
+				      </h2>
+				    </div>
+
+				    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <ul class = "text-justify nostyle p-0">
+				        	<li><a href="#blog">Blog Site</a></li>
+				        	<li><a href="#buss">Business site</a></li>
+				        	<li><a href="#per">Personal Website</a></li>
+				        </ul>
+				      </div>
+				    </div>
+				  </div>
+			
+				  <div class="card">
+				    <div class="card-header" id="headingThree">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link bg-dark btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          Tools
+				        </button>
+				      </h2>
+				    </div>
+				    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+				      <div class="card-body">
+				        <ul class = "text-justify nostyle p-0">
+				        	<li><a href="#core">Core Tools</a></li>
+				        	<li><a href="#other">Other Tools</a></li>
+				        </ul>
+				      </div>
+				    </div>
+				  </div>
+
+				  	  <div class="card">
+				    <div class="card-header" id="headingThree">
+				      <h2 class="mb-0">
+				        <button class="btn btn-link bg-dark btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				          <a href="#contact" class="text-light"> Contact Me </a>
+				        </button>
+				      </h2>
+				    </div>
+				
+				  </div>
+
+
+				</div>
+			</div>
+			<!-- End of Side bar -->
+
+			<div class="col-md-8 col-lg-10 p-0">
+				<div  id="about" class = "container-fluid DarkBG text-light min-vh-100">
+					<img src="./images/myimage.jpg" class = "rounded-circle col-md-4 col-6 mt-5">
+
+					<h1>Jan Jonell Mendoza</h1>
+					<h4>Full-Stack Developer / Wordpress Developer</h4>
+					<div class = "row justify-content-around">
+						<div class = "col-8 mb-5">
+								I have almost 6 years experience working as a wordpress developer and now added new skill in Front-end, Back-end and Full-Stack Development.
+						</div>
+					</div>
+
+					<!-- Start of Carousel -->
+					
+					<!-- End of Carousel -->
+				</div>
+				<!-- erase if error -->
+			</div>
+				<!-- erase if error -->
+				<!-- start of Cards -->
+				<div class = "bg-secondary text-light min-vh-100 p-3">
+					<h2>Services</h2>
+					<div class = "d-md-flex justify-content-md-around mb-3">
+						<!-- first card -->
+						<div id="blog" class="card bg-dark col-md-3 col-8 offset-2 offset-md-0 mt-3">
+						  <img src="./images/urbannaturale.png" class="card-img-top p-3 cutimage" alt="...">
+						  <div class="card-body">
+						    <h4 class="card-title">Blog Site</h4>
+						    <p class="card-text">informational website published on the World Wide Web consisting of discrete, often informal diary-style text entries</p>
+						  </div>
+						  <div class="card-body">
+						    <a href="https://urbannaturale.com/" class="card-link">Link to Project</a>
+						  </div>
+						</div>
+						<!-- end of first card -->
+
+						<!-- start of second card -->
+						<div id="buss" class="card bg-dark col-md-3 col-8 offset-2 offset-md-0 mt-3">
+						  <img src="./images/silentsound.png" class="card-img-top p-3" alt="...">
+						  <div class="card-body">
+						    <h4 class="card-title">Business Site</h4>
+						    <p class="card-text">generally serves as a space to provide general information about your company or a direct platform for e-commerce</p>
+						  </div>
+						  <div class="card-body">
+						    <a href="https://silentsoundsystem.com/" class="card-link">Link to Project</a>
+						  </div>
+						</div>
+						<!-- end of the second card -->
+
+						<!-- start of the third card -->
+						<div id="per" class="card bg-dark col-md-3 col-8 offset-2 offset-md-0 mt-3">
+						  <img src="./images/mobex.png" class="card-img-top p-3" alt="...">
+						  <div class="card-body">
+						    <h4 class="card-title">Ecommerce website</h4>
+						    <p class="card-text"> A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location.</p>
+						  </div>
+						  <div class="card-body">
+						    <a href="https://mobex.biz/" class="card-link">Link to Project</a>
+						  </div>
+						</div>
+						<!-- end of the third card -->
+					</div>
+					<!-- start of other tools -->
+					   <div>
+
+                <!-- Core Tools Section Start -->
+
+                <div class="DarkBG m-5 p-5">
+                <h3 id="core">Core Tools</h3>
+
+                <div>
+                    <div>
+                        <img width="150" src="images/logo-html5.png"/>
+                    </div>
+                    <div>
+                        <img width="150" src="images/logo-css3.png"/>
+                        <img width="150" src="images/logo-javascript.png"/>
+                    </div>
+                </div>
+                <!-- Core Tools Section End -->
+                
+                <!-- Other Tools Section Start -->
+                <h3 id="other">Other Tools</h3>
+
+                <div class="d-flex p-3 flex-md-column flex-sm-row">
+                    <div>
+                        <img class="img-fluid" width="150" src="images/logo-mongodb.png"/>
+                        <img class="img-fluid" width="150" src="images/logo-nodejs.png"/>
+                        <img class="img-fluid" width="150" src="images/logo-expressjs.png"/>
+                        <img class="img-fluid" width="150" src="images/logo-react.png"/>
+                        <img class="img-fluid" width="150" src="images/logo-heroku.png"/>
+                    </div>
+                    <div>
+                        <img class="img-fluid" width="150" src="images/logo-git.png"/>
+                        <img class="img-fluid" width="150" src="images/logo-sublime-text-3.png"/>
+                        <img class="img-fluid" width="150" src="images/logo-postman.png"/>
+                        <img class="img-fluid" width="150" src="images/logo-gitlab-ci-cd.png"/>
+                    </div>
+                </div>
+               </div>
+                <!-- Other Tools Section End -->
+                
+            </div>
+
+				</div>
+				
+				
+		</div>
+
+	</div>
+</div>
+	<!-- start of contact form -->
+
+	 <div class="DarkBG mb-5">
+    
+            <h3 id="contact" class="contact">Contact me for your inquiries</h3>
+
+
+            <div class="container-fluid">
+                <div class="row justify-content-around p-5">
+                    <div class="text-light pt-3 pb-5 col-lg-4 order-md-2 order-lg-1 col-md-12 bg-primary mt-3">
+                    <form">
+                      <div class="form-group pb-5">
+                        <label for="exampleFormControlInput1">Full Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="">
+
+                        <label for="exampleFormControlInput1">Contact Number</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput3" placeholder="">
+
+                      </div>
+                          
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+<!-- modal -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark mt-2" data-toggle="modal" data-target="#exampleModal">
+                          Send
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade text-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Thanks for Contacting</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                  <span aria-hidden="true">&times;</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                Will response to your message within the day
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+<!-- end of modal -->
+
+                      </div>
+                    </form>
+                    </div>
+                    <!-- end of form -->
+               <!-- start of map  -->
+                <div class=" pt-3 pb-3 col col-md-6 map-responsive text-light">
+                	<p> Brgy. Del Remedio, San Pablo City.</p>
+            		<p> +63 9668098674 </p>
+            		<p> Jonelmendoza4@gmail.com</p>
+            	
+
+            		<a href="https://www.facebook.com/pyro125"><img src="./images/facebook.png" class="img-fluid crop"></a>
+					<a href="https://www.instagram.com/llenojazodnem/"><img src="./images/instagram.png" class="img-fluid crop"></a>
+					<a href="https://twitter.com/JJYM20"><img src="./images/twitter.png" class="img-fluid crop"></a>
+                    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=san%20pablo%20city%20laguna&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+
+                </div>
+            </div>
+			<!-- end of map -->
+
+
+   <div class="text-center bg-primary fixed-bottom bordercss" >
+            <p class="m-2 text-light"><a href="mailto:jonelmendoza4@gmail.com" class="success-link text-light"> Jan Jonell Mendoza</a> &copy; Copyright 2022</p>
+            <a href="#about"><button id="myBtn" title="Go to top">Top</button></a>
+    </div>
+
+
+
+	<!-- Script tag for the bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
