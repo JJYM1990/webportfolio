@@ -1,9 +1,22 @@
 *{
-	font-family: 'Poppins', sans-serif !important;
+	 font-family: 'Goudy Bookletter 1911', serif;
+
+}
+
+p {
+     font-size: 20px;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+
 }
 
 .DarkBG {
 background-color: black;
+background-image: url("");
 }
 
 .DarBlueBG {
@@ -77,8 +90,8 @@ background-color: black;
 
 
 #myBtn {
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
+  position: fixed; 
+  bottom: 60px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
@@ -106,3 +119,9 @@ background-color: black;
     
           }
   }
+
+  .imgsize {
+     height: 100px;
+     width: 100px;
+  }
+
